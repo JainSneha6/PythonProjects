@@ -7,50 +7,48 @@ root.geometry("1200x700")
 root.title("Rock, Paper, Scissors")
 root.config(bg="black")
 
-rock = PhotoImage(file=r"D:\pics\rock.png")
-paper = PhotoImage(file=r"D:\pics\paper.png")
-scissors = PhotoImage(file=r"D:\pics\scissors.png")
+rock = PhotoImage(file=r"RockPaperScissors\rock.png")
+paper = PhotoImage(file=r"RockPaperScissors\paper.png")
+scissors = PhotoImage(file=r"RockPaperScissors\scissors.png")
 
 choices = ["rock", "paper", "scissors"]
-computer_choice = random.choice(choices)
-user_choice = ""
-label = None
+label = None  
 
 
 def game1():
-    global user_choice, label
     user_choice = "rock"
-    display_result()
+    display_result(user_choice)
 
 
 def game2():
-    global user_choice, label
     user_choice = "paper"
-    display_result()
+    display_result(user_choice)
 
 
 def game3():
-    global user_choice, label
     user_choice = "scissors"
-    display_result()
+    display_result(user_choice)
 
 
-def display_result():
-    global label
+def display_result(user_choice):
+    global label  
+    computer_choice = random.choice(choices)
+
     if label:
-        label.destroy()
+        label.destroy()  
 
     if user_choice == computer_choice:
         result = "It's a TIE"
     elif (user_choice == "rock" and computer_choice == "paper") or \
             (user_choice == "paper" and computer_choice == "scissors") or \
             (user_choice == "scissors" and computer_choice == "rock"):
-        result = "You LOOSE"
+        result = "You LOSE"
     else:
         result = "You WIN"
 
     text = f'You choose {user_choice.capitalize()} while Computer chooses {computer_choice.capitalize()}.\n' \
            f"{result}!"
+
     label = Label(root, text=text, font="comicsans 25 bold", bg="black", fg="white")
     label.place(x=200, y=480)
 
@@ -71,3 +69,5 @@ scissors_button = Button(root, image=scissors, cursor="hand2", command=game3)
 scissors_button.place(x=880, y=150)
 
 root.mainloop()
+
+
