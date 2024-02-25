@@ -38,7 +38,7 @@
 
 <h3>How to Play 🕹️</h3>
 <ul>
-    <li><strong>Start the game</strong> by running the Python script by RockPaperScissors.py.</li>
+    <li><strong>Start the game</strong> by running the Python script in the folder RockPaperScissors named RockPaperScissors.py.</li>
     <li>Click on the image representing your choice: rock, paper, or scissors.</li>
     <li>After making your choice, the computer will randomly select its move.</li>
     <li>The game will display the result: win, lose, or tie.</li>
@@ -62,7 +62,7 @@
 <p>The Friendship Test is a Python application designed to evaluate how well you know your friend by comparing your answers to a set of questions. The questions include favorite color, birthdate, favorite movie, hobby, and favorite destination. The application provides instant feedback on your guesses and calculates your score based on the number of correct answers.</p>
 <p>This project mainly focuses on GUI Development with Tkinter, user input handling, data handling, conditional statements, Text-to-Speech Integration using pyttx3 library and importing files as modules/packages.</p>
 
-<h3>How to Use 🕹️</h3>
+<h3>How to Use 📝</h3>
 <ul>
     <li>Run the Python script in the folder FriendshipTest named <strong>Friendshiptest.py</strong>.</li>
     <li>Enter your answers for each question.</li>
@@ -74,10 +74,10 @@
 
 <h2>Project 6: Zodiac Sign Finder 🌟</h2>
 <p>The Zodiac Sign Finder is a Python application designed to determine a person's zodiac sign based on their birth month and date. It provides users with a simple interface to input their birth details and view their corresponding zodiac sign.</p>
-<p>This project focuses on GUI interface using Tkinter, image intergration with Tkinter and text-to-speech functionality using pyttx3 library.</p>
-<h3>How to Use 🔄</h3>
+<p>This project focuses on GUI interface using Tkinter, image intergration with Tkinter, dictionaries, tuples and text-to-speech functionality using pyttx3 library.</p>
+<h3>How to Use 📝</h3>
 <ul>
-    <li><strong>Run the Application:</strong> Execute the Python script named Zodiac_sign.py.</li>
+    <li><strong>Run the Application:</strong> Execute the Python script in the folder zodiac named Zodiac_sign.py.</li>
     <li>Enter your birth month in the provided text field.</li>
     <li>Enter your birth date in the respective text field.</li>
     <li>Click the <strong>"Submit" </strong>button to find out your zodiac sign.</li>
