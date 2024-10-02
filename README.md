@@ -2,6 +2,42 @@
 
 <p>Welcome to my repository of Python Projects! This repository showcases a diverse collection of Python projects that I've developed to explore various programming concepts, methods, and libraries.</p>
 
+<h2>Index of Projects</h2>
+<table>
+    <tr>
+        <th>Project</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td><a href="#guessing-game">Guessing Game 🎲</a></td>
+        <td>A fun game to guess a secret number between 0 and 100.</td>
+    </tr>
+    <tr>
+        <td><a href="#tic-tac-toe">Tic Tac Toe ⭕❌</a></td>
+        <td>A classic game where players aim to get three in a row.</td>
+    </tr>
+    <tr>
+        <td><a href="#blackjack-game">Blackjack Game 🃏</a></td>
+        <td>Simulates the popular card game of Blackjack.</td>
+    </tr>
+    <tr>
+        <td><a href="#rock-paper-scissors">Rock, Paper, Scissors Game 🎮</a></td>
+        <td>A simple game where players choose rock, paper, or scissors.</td>
+    </tr>
+    <tr>
+        <td><a href="#age-day-calculator">Age and Day Calculator 📅</a></td>
+        <td>Calculates age and the day of the week based on birthdate.</td>
+    </tr>
+    <tr>
+        <td><a href="#friendship-test">Friendship Test Application 🤝</a></td>
+        <td>Evaluates how well you know your friend through questions.</td>
+    </tr>
+    <tr>
+        <td><a href="#zodiac-sign-finder">Zodiac Sign Finder 🌟</a></td>
+        <td>Determines your zodiac sign based on your birthdate.</td>
+    </tr>
+</table>
+
 <h2>Project 1: Guessing Game 🎲</h2>
 <p>Guessing Game is a fun Python project where players attempt to guess a secret number between 0 and 100.</p>
 <p>It's designed to be beginner-friendly while reinforcing core programming principles such as user input, conditionals, and loops. Also working with random library. </p>
